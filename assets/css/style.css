@@ -265,3 +265,330 @@ footer > div > h4 > a{
     text-decoration: none;
     color:  #27282A;
 } 
+
+
+
+@media only screen and (max-width: 1140px) {
+    body {
+        font-size: 32px;
+    }
+    header{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    header > h1{
+        font-size: 3em;
+        text-align: center;
+        margin-bottom: 4vh;
+    }
+    header > nav > ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header > a{
+        position: absolute;
+        top: 2vh;
+        left: 70%;
+        font-size: 0.7em;
+        padding: 0.1vh 2%;
+    }
+    .design-sec{
+        padding-top: 30vh;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-end;
+    
+    }
+    .design-sec > h1{
+        padding-bottom: 0;
+        font-size: 2em;
+        line-height: 5vh;
+    }
+    .sec-149{
+        padding: 5vh 10%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .del-sec{
+        display: block
+    }
+    .del-sec > div{
+        padding: 20vh 1px;
+    }
+    .del-sec > article > p{
+        font-size: 1.1em;
+    }
+    .how-sec > section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .how-sec > section > div{
+        padding: 40vh 1px 1vh 1px;
+    }
+    .how-sec > section > article{
+        padding-left: 1%;
+    }
+    .how-sec > section > article > ol{
+        font-size: 1.1em;
+    }
+    .how-sec > section > article > p{
+        font-size: 1.1em;
+    }
+    .critique{
+        margin-top: 5vh;
+        margin-bottom: 15vh;
+        padding-left: 10%;
+    
+    }
+    .critique > h1{
+        margin-bottom: 2vh;
+    }
+    .critique > p{
+        text-align: left;
+    }
+    .conversion-sec{
+       display: flex;
+       flex-direction: column-reverse;
+       padding: 5vh 0 0 10%;
+    }
+    .conversion-sec > p{
+        font-size: 1.1em;
+    }
+    .conversion-sec > img{
+        display: none;
+    }
+    footer > div{
+        flex-direction: column;
+
+    }
+    footer > div > img{
+        width: 30%;
+    }
+    footer > div > h4{
+        display: block;
+        align-self: center;
+    } 
+    footer > h1{
+        font-size: 2.7em;
+        margin-bottom: 2vh;
+        
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 23px;
+    }
+    header{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    header > h1{
+        font-size: 3em;
+        text-align: center;
+        margin-bottom: 4vh;
+    }
+    header > nav > ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header > a{
+        position: absolute;
+        top: 2vh;
+        left: 70%;
+        font-size: 0.7em;
+        padding: 0.1vh 2%;
+    }
+    .design-sec{
+        padding-top: 30vh;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-end;
+    
+    }
+    .design-sec > h1{
+        padding-bottom: 0;
+        font-size: 2em;
+        line-height: 5vh;
+    }
+    .sec-149{
+        padding: 5vh 10%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .del-sec{
+        display: block
+    }
+    .del-sec > div{
+        padding: 20vh 1px;
+    }
+    .del-sec > article > p{
+        font-size: 1.1em;
+    }
+    .how-sec > section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .how-sec > section > div{
+        padding: 40vh 1px 1vh 1px;
+    }
+    .how-sec > section > article{
+        padding-left: 1%;
+    }
+    .how-sec > section > article > ol{
+        font-size: 1.1em;
+    }
+    .how-sec > section > article > p{
+        font-size: 1.1em;
+    }
+    .critique{
+        margin-top: 5vh;
+        margin-bottom: 15vh;
+        padding-left: 10%;
+    
+    }
+    .critique > h1{
+        margin-bottom: 2vh;
+    }
+    .critique > p{
+        text-align: left;
+    }
+    .conversion-sec{
+       display: flex;
+       flex-direction: column-reverse;
+       padding: 5vh 0 0 10%;
+    }
+    .conversion-sec > p{
+        font-size: 1.1em;
+    }
+    .conversion-sec > img{
+        display: none;
+    }
+    footer > div{
+        flex-direction: column;
+
+    }
+    footer > div > img{
+        width: 30%;
+    }
+    footer > div > h4{
+        display: block;
+        align-self: center;
+    } 
+    footer > h1{
+        font-size: 2.7em;
+        margin-bottom: 2vh;
+        
+    }
+  }
+
+
+@media only screen and (max-width: 576px) {
+    body {
+        font-size: 12px;
+    }
+    header{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    header > h1{
+        font-size: 3em;
+        text-align: center;
+        margin-bottom: 4vh;
+    }
+    header > nav > ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header > a{
+        position: absolute;
+        top: 2vh;
+        left: 70%;
+        font-size: 0.7em;
+        padding: 0.1vh 2%;
+    }
+    .design-sec{
+        padding-top: 20vh;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-end;
+    
+    }
+    .design-sec > h1{
+        padding-bottom: 0;
+        font-size: 2em;
+        line-height: 5vh;
+    }
+    .sec-149{
+        padding: 5vh 10%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .del-sec{
+        display: block
+    }
+    .del-sec > div{
+        padding: 20vh 1px;
+    }
+    .del-sec > article > p{
+        font-size: 1.1em;
+    }
+    .how-sec > section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .how-sec > section > div{
+        padding: 40vh 1px 1vh 1px;
+    }
+    .how-sec > section > article{
+        padding-left: 1%;
+    }
+    .how-sec > section > article > ol{
+        font-size: 1.1em;
+    }
+    .how-sec > section > article > p{
+        font-size: 1.1em;
+    }
+    .critique{
+        margin-top: 5vh;
+        margin-bottom: 15vh;
+        padding-left: 10%;
+    
+    }
+    .critique > h1{
+        margin-bottom: 2vh;
+    }
+    .critique > p{
+        text-align: left;
+    }
+    .conversion-sec{
+       display: flex;
+       flex-direction: column-reverse;
+       padding: 5vh 0 0 10%;
+    }
+    .conversion-sec > p{
+        font-size: 1.1em;
+    }
+    .conversion-sec > img{
+        display: none;
+    }
+    footer > div{
+        flex-direction: column;
+
+    }
+    footer > div > img{
+        width: 30%;
+    }
+    footer > div > h4{
+        display: block;
+        align-self: center;
+    } 
+    footer > h1{
+        font-size: 2.7em;
+        margin-bottom: 2vh;
+        
+    }
+  }
